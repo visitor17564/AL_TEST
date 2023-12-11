@@ -4,7 +4,6 @@ function solution(players, callings) {
   for (a = 0; a < answer.length; a++) {
     mapAnswer.set(answer[a], a);
   }
-  mapAnswer;
   for (a = 0; a < callings.length; a++) {
     let callIndex = mapAnswer.get(callings[a]);
     let now = answer[callIndex];
